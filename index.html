@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CityCenter Mall</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #34495e;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      display: inline-block;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color: #2c3e50;
+    }
+
+    .hero {
+      background: url('https://via.placeholder.com/1200x400') center/cover no-repeat;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 36px;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    .section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .stores {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .store-card {
+      background-color: #f4f4f4;
+      border: 1px solid #ddd;
+      width: 200px;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>CityCenter Mall</h1>
+    <p>Your one-stop destination for shopping, dining, and entertainment</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#stores">Stores</a>
+    <a href="#offers">Offers</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero" id="home">
+    <div>Welcome to CityCenter Mall!</div>
+  </section>
+
+  <section class="section" id="stores">
+    <h2>Our Stores</h2>
+    <div class="stores">
+      <div class="store-card">
+        <h3>Fashion Hub</h3>
+        <p>Trendy clothes for men and women.</p>
+      </div>
+      <div class="store-card">
+        <h3>Gadget World</h3>
+        <p>Latest electronics and accessories.</p>
+      </div>
+      <div class="store-card">
+        <h3>Book Nest</h3>
+        <p>Thousands of books & stationery.</p>
+      </div>
+      <div class="store-card">
+        <h3>Food Court</h3>
+        <p>Delicious meals from global cuisines.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="offers">
+    <h2>Current Offers</h2>
+    <p>🎉 Up to 50% off in select stores this weekend!</p>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@citycentermall.com</p>
+    <p>Phone: (123) 456-7890</p>
+    <p>Address: 123 Main Street, Downtown</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 CityCenter Mall. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
